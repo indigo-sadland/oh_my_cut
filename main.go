@@ -155,7 +155,7 @@ func dirInfo(path string) error  {
 
 func main() {
 
-	Src := flag.String("src", "", "Path to a directory with .go files \n or to a single .go file")
+	Src := flag.String("src", "", "Path to a directory with files \n or to a single file")
 	Output := flag.String("out","", "Path to output directory")
 	flag.Parse()
 
