@@ -8,5 +8,5 @@
 `go get github.com/indigo-sadland/oh_my_cut`
 
 ### Usage:
-`oh_my_cut -src INPUT_PATH -out OUT_PATH \
+`oh_my_cut -src INPUT_PATH -out OUT_PATH` \
 > Tested on Windows machine and .go files
