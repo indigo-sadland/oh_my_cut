@@ -20,7 +20,7 @@ func cutThis(filePath string) (string, error) {
 
 	// Regex to match multiline comments of type such as: "/**/", "/* \n *\" and so on.
 	regStartMLC := regexp.MustCompile(`(^\/\*.*)`)
-	regMiddleMLC := regexp.MustCompile(`.\*.*`)
+	regMiddleMLC := regexp.MustCompile(`.\.*`)
 	regEndMLC := regexp.MustCompile(`.*.(\*/)`)
 
 	// There might be cases when legit string contains "//". Example: ftm.Println("socks5://user...")
